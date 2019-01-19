@@ -6,7 +6,7 @@
 	},
 	"item": [
 		{
-			"name": "localhost:8080/api/inventory-service/products",
+			"name": "localhost:8080/products",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -24,7 +24,7 @@
 					"raw": ""
 				},
 				"url": {
-					"raw": "localhost:8080/api/inventory-service/products",
+					"raw": "localhost:8080/products",
 					"host": [
 						"localhost"
 					],
@@ -39,7 +39,7 @@
 			"response": []
 		},
 		{
-			"name": "localhost:8080/api/inventory-service/products",
+			"name": "localhost:8080/products",
 			"request": {
 				"method": "POST",
 				"header": [
@@ -54,7 +54,7 @@
 					"raw": "{\n\t\"name\":\"asgard\"\n}"
 				},
 				"url": {
-					"raw": "localhost:8080/api/inventory-service/products",
+					"raw": "localhost:8080/products",
 					"host": [
 						"localhost"
 					],
